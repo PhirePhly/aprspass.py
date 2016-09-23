@@ -24,9 +24,9 @@ def getPass(callsign):
 
 def main():
         try:
-                print getPass(sys.argv[1])
+                print (getPass(sys.argv[1]))
         except:
-                print "Usage: aprspass.py <callsign>"
+                print ("Usage: aprspass.py <callsign>")
 
 if __name__ == "__main__":
         main()
